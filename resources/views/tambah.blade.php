@@ -47,20 +47,9 @@
                                 </div>
                             </div>
                             <br>
-                            <div class="col-lg-10">
-                                <div class="form-group">
-                                    <label for="">Konten Maksimal 225 Karakter</label>
-                                    <textarea class="caption" name="caption" id="caption"></textarea>
-                                    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
-                                    <script>
-                                        tinymce.init({
-                                            selector:'textarea.caption',
-                                            width: 900,
-                                            height: 300
-                                        });
-                                    </script>
-                                </div>  
-                            </div>
+                            <div class="form-floating">
+							  <textarea class="form-control" name="caption" placeholder="Deskripsi" id="floatingTextarea2" style="height: 400px"></textarea>
+							</div>
                             <div class="modal-footer">
                                 <button type="submit" class="btn btn-primary">Tambah</button>
                             </div>
